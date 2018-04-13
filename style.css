@@ -13,6 +13,18 @@ body{
 	padding-right: 12px;
 }
 
+.jumbotron{
+	background-color: #4d4d4d;
+	color: white;
+}
+
+.well{
+	background-color: white;
+	color: #4d4d4d;
+	border-color: white;
+	box-shadow: none;
+}
+
 #typedName{
 	padding: 300px;
 	background-color: black;
@@ -28,12 +40,17 @@ body{
 	background-color: #4d4d4d;
 }
 
-.jumbotron{
-	background-color: #4d4d4d;
-	color: white;
+#projects{
+	background-color: black;
+	padding-bottom: 50px;
 }
 
-.well{
-	background-color: #4d4d4d;
-	color: white;
+#projectsHeader{
+	background-color: black;
 }
+
+#contact{
+	padding: 75px;
+	background-color: white;
+}
+
