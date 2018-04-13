@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+
+  <title>Malek Abdullah</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href='https://fonts.googleapis.com/css?family=Cutive Mono' rel='stylesheet'>
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid" id="navBar"> 
+      <div class="navbar-header">
+        <a class="navbar-brand">malek abdullah</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li><a href="#typedName" data-toggle="tooltip" title="home"><span class="glyphicon glyphicon-home"></span></a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li ><a href="#bio" data-toggle="tooltip" title="bio"><span class="glyphicon glyphicon-user"></span></a></li>
+        <li><a href="#projects" data-toggle="tooltip" title="projects"><span class="glyphicon glyphicon-folder-open"></span></a></li>
+        <li><a href="#contact" data-toggle="tooltip" title="contact"><span class="glyphicon glyphicon-phone"></span></a></li>
+      </ul>
+    </div>
+  </nav>
+  
+  <div class="container-fluid" id="typedName">
+    <span class="titleTyped"></span>
+  </div>
+
+  <div class="container-fluid" id="bio">
+     <div id="bioArea" class="row">
+      <div class="col-md-4">
+        <div class="jumbotron">
+          <h1>bio</h1>
+        </div>
+
+       
+        
+
+      </div>
+
+      <div class="col-md-8">
+        <div class="jumbotron">
+        <p>
+          Hi, my name is Malek Abdullah. I graduated from the University of Ontario Institute of Ontario (UOIT) in 2018 with a Bachelor's of Engineering in Software Engineering.
+          
+        </p>  
+      </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script type="text/javascript" src="typed.js"></script>
+  <script type="text/javascript">
+    $(function(){
+      var typed = new Typed(".titleTyped", {
+        strings:["malek abdullah", "software engineer"], typeSpeed: 100, backSpeed: 40, backDelay: 500, loop: true, loopCount: false, showCursor: false
+      })
+    });
+  </script>
+
+
+
+</body>
+</html>
