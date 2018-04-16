@@ -26,7 +26,8 @@ body{
 }
 
 #typedName{
-	padding: 300px;
+	padding-top: 300px;
+	padding-bottom: 300px;
 	background-color: black;
 	text-align: left;
 	margin-top: 0px;
@@ -53,5 +54,27 @@ body{
 	padding: 75px;
 	background-color: white;
 }
+#email{
+	text-align: right;
+}
 
 
+
+
+@media (max-width: 768px) {
+	.navbar{
+		display: none;
+	}
+	#yt{
+		width: 50%;
+		height: 50%;
+		display: block;
+   		margin: 0 auto;
+	}
+	#email{
+		text-align: center;
+	}
+	#phone{
+		text-align: center;
+	}
+  }
